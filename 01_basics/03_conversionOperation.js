@@ -20,8 +20,23 @@ for changing into Boolean
 
 let score2 = false;
 
-console.log(typeof score2);  //this will give you string
+//console.log(typeof score2);  //this will give you string
 
 let valueInStr = String(score2)
-console.log(typeof valueInStr); 
-console.log(valueInStr);
+//console.log(typeof valueInStr); 
+//console.log(valueInStr);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+1); // if first is strinf then JS will treat rest of them as string and concatenate || Output: 121
+console.log(1+2+"1"); //if first is number then it will do the operation first and then concatenate it with string || Output: 31
+console.log(+true); // out put : 1 // + is loosely used for conversion too
+//console.log(true+); // will throw an error
+// console.log(+""); output: 0
+
+ 
+
+     
+
+
+
