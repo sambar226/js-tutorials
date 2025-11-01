@@ -52,6 +52,17 @@ console.log(para2.lastIndexOf('dog')); // returns index of last occurance of the
 // we can also add position of it too , it will check till index+! less than or equal to
 console.log(para2.lastIndexOf('dog',10)); 
 
+//Match() prop
+const para3 = "The quick brown fox jumps over the lazy dog. It barked";
+const regex=/[A-Z]/g;
+const lastregex=/\w+$/ //\w means matches any word character ,"+"mean more than 0 occurances, '$' means the character  should be at last of word
+const regex2=/.\B/
+const found=para3.match(regex);
+console.log(found);
+console.log(para3.match(lastregex));
+
+
+
 
 
 
